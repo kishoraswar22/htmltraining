@@ -1,0 +1,31 @@
+Kishor@DESKTOP-3CCQUMT MINGW64 ~
+$ git clone https://github.com/kishoraswar22/htmltraining.git html_training/
+Cloning into 'html_training'...
+warning: You appear to have cloned an empty repository.
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~
+$ cd html_training/
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~/html_training (main)
+$ touch file1.html
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~/html_training (main)
+$ git add .
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~/html_training (main)
+$ git commit -m "html file"
+[main (root-commit) 9b8e7c2] html file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1.html
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~/html_training (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kishoraswar22/htmltraining.git
+ * [new branch]      main -> main
+
+Kishor@DESKTOP-3CCQUMT MINGW64 ~/html_training (main)
+$
